@@ -35,4 +35,7 @@ The initial release can be found on the dedicated repository, under MIT License:
 
 Bibliothèque numérique des lettres néerlandaises: https://www.dbnl.org/
 
+"Did a Poet with Donkey Ears Write the Oldest Anthem in the World? Ideological Implications of the Computational Attribution of the Dutch National Anthem
+to Petrus Dathenus": https://dh2017.adho.org/abstracts/079/079.pdf
+
 
