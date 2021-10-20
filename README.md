@@ -2,6 +2,10 @@
 
 Projet collectif du cours de philologie computationnelle
 
+## Description des dossiers
+
+train_txt_langs: fichiers .xml convertis en .txt, organisés en dossiers selon la langue détectée par fasttext.
+
 ## Description des fichiers
 
 **authors_corrections.csv:** 
