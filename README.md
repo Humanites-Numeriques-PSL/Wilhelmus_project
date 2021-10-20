@@ -30,3 +30,9 @@ These data have originally been produced for the 2019
 The initial release can be found on the dedicated repository, under MIT License:
 
 [https://github.com/fbkarsdorp/meertens-song-collection/releases/tag/DH2019](https://github.com/fbkarsdorp/meertens-song-collection/releases/tag/DH2019).
+
+## Références
+
+Bibliothèque numérique des lettres néerlandaises: https://www.dbnl.org/
+
+
