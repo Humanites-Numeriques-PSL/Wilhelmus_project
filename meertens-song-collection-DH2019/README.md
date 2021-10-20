@@ -1,2 +1,6 @@
 # meertens-song-collection
-Collection of songs from the Dutch Song Database of the Meertens Institute
+Collection de chants issus de la Dutch Song Database de l'Institut Meertens
+
+Pour en savoir plus:
+
+http://www.liederenbank.nl/index.php?lan=en
