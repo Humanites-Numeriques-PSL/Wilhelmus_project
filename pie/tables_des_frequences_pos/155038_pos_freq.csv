@@ -1,0 +1,26 @@
+POS,Nombre d'apparitions,Frequence d'apparition
+n(prop),27,0.15607
+n(sing),27,0.15607
+adv(gener),15,0.08671
+"v(fin,pres,aux_cop)",12,0.06936
+adp(),12,0.06936
+pron(dem),9,0.05202
+"v(participle,past)",9,0.05202
+"pron(pers,3,sing)",8,0.04624
+adj(),7,0.04046
+v(infin),7,0.04046
+art(def),6,0.03468
+"v(fin,pres,lex)",6,0.03468
+pron(rel),6,0.03468
+pron(poss),5,0.0289
+"v(fin,past,aux_cop)",3,0.01734
+interj(),3,0.01734
+art(indef),2,0.01156
+conj(subord),2,0.01156
+"v(fin,past,lex)",1,0.00578
+n(plu),1,0.00578
+v(imp),1,0.00578
+"pron(pers,1,plu)",1,0.00578
+art(def)+adv(gener),1,0.00578
+adv(neg),1,0.00578
+"pron(pers,2,plu)",1,0.00578
