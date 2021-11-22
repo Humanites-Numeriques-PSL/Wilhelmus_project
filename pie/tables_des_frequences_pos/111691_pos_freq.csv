@@ -1,0 +1,15 @@
+POS,Nombre d'apparitions,Frequence d'apparition
+n(sing),14,0.4375
+v(infin),4,0.125
+adj(),2,0.0625
+pron(poss),2,0.0625
+interj(),1,0.03125
+"pron(pers,2,plu)",1,0.03125
+art(indef),1,0.03125
+v(imp),1,0.03125
+conj(coord),1,0.03125
+pron(indef),1,0.03125
+"pronadv(pers)+v(fin,past,aux_cop)",1,0.03125
+adv(gener),1,0.03125
+"v(participle,past)",1,0.03125
+adp(),1,0.03125
