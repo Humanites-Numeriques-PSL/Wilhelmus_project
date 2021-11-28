@@ -1,0 +1,25 @@
+chars,Nombre d'apparitions,Frequence d'apparition
+v_conj_pron,2,0.07407
+pron_pron_pron,2,0.07407
+conj_pron_pron,2,0.07407
+v_adp_pron,1,0.03704
+pron_n_v,1,0.03704
+n_pron_n,1,0.03704
+pron_n_pron,1,0.03704
+pron_pron_n,1,0.03704
+pronadv_v_conj,1,0.03704
+pronadv_pronadv_v,1,0.03704
+n_pronadv_pronadv,1,0.03704
+pron_n_pronadv,1,0.03704
+adp_pron_n,1,0.03704
+v_v_adp,1,0.03704
+pron_v_v,1,0.03704
+pron_pron_v,1,0.03704
+adv_v_conj,1,0.03704
+v_adv_v,1,0.03704
+adv_v_adv,1,0.03704
+n_adv_v,1,0.03704
+adp_n_adv,1,0.03704
+v_adp_n,1,0.03704
+pron_v_adp,1,0.03704
+n_v_v,1,0.03704
