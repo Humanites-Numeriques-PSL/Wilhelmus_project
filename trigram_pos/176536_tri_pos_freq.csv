@@ -1,0 +1,20 @@
+chars,Nombre d'apparitions,Frequence d'apparition
+n_n_adj,2,0.08333
+adj_adj_adj,2,0.08333
+n_n_adp,2,0.08333
+n_adp_n,2,0.08333
+adj_n_n,2,0.08333
+n_adp_art,1,0.04167
+n_v_pron,1,0.04167
+adp_n_v,1,0.04167
+n_n_n,1,0.04167
+art_n_n,1,0.04167
+adp_art_n,1,0.04167
+n_n_art,1,0.04167
+art_n_adp,1,0.04167
+n_art_n,1,0.04167
+adp_n_n,1,0.04167
+adj_adj_n,1,0.04167
+n_adj_adj,1,0.04167
+n_adj_n,1,0.04167
+v_pron_n,1,0.04167

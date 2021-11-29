@@ -1,0 +1,18 @@
+chars,Nombre d'apparitions,Frequence d'apparition
+n_art_n,1,0.05882
+n_n_conj,1,0.05882
+adv_num_adj,1,0.05882
+v_adv_num,1,0.05882
+n_v_adv,1,0.05882
+pron_n_v,1,0.05882
+conj_pron_n,1,0.05882
+n_conj_pron,1,0.05882
+n_n_n,1,0.05882
+art_n_conj,1,0.05882
+adp_n_n,1,0.05882
+n_adp_n,1,0.05882
+adj_n_adp,1,0.05882
+art_adj_n,1,0.05882
+conj_art_adj,1,0.05882
+n_conj_art,1,0.05882
+num_adj_n,1,0.05882

@@ -1,0 +1,13 @@
+POS,Nombre d'apparitions,Frequence d'apparition
+n(sing),5,0.21739
+adp(),4,0.17391
+adv(gener),3,0.13043
+pron(poss),2,0.08696
+n(prop),2,0.08696
+v(infin),1,0.04348
+num(card),1,0.04348
+n(plu),1,0.04348
+pron(indef),1,0.04348
+num(indef),1,0.04348
+"v(fin,pres,lex)",1,0.04348
+pron(dem),1,0.04348
