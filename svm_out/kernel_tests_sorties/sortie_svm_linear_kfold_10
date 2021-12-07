@@ -1,0 +1,260 @@
+.......... Formatting data ........
+.......... Creating pipeline according to user choices ........
+.......... using normalisations ........
+.......... choosing SVM ........
+.......... Creating pipeline with steps ........
+[('scaler', StandardScaler(copy=True, with_mean=True, with_std=True)), ('normalizer', Normalizer(copy=True, norm='l2')), ('model', LinearSVC(C=1.0, class_weight=None, dual=True, fit_intercept=True,
+          intercept_scaling=1, loss='squared_hinge', max_iter=1000,
+          multi_class='ovr', penalty='l2', random_state=None, tol=0.0001,
+          verbose=0))]
+.......... k-fold cross validation will be performed ........
+.......... using 10 samples ........
+
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 8 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   6 out of  10 | elapsed:   59.7s remaining:   39.8s
+[Parallel(n_jobs=-1)]: Done  10 out of  10 | elapsed:  1.3min finished
+
+                                                                                 precision    recall  f1-score   support
+
+                                                               A. de R. en J.G.       0.45      0.26      0.33        19
+                                                                   A.C. Alberts       0.00      0.00      0.00         2
+                                             Aagje Deken en Klaas van der Horst       0.20      0.13      0.16        23
+                                                               Abdias Velingius       0.29      0.25      0.27        36
+                                                              Abraham de Koning       0.00      0.00      0.00         2
+                                                           Adriaan Loosjes Pzn.       0.17      0.17      0.17        24
+                                                 Adriaan Loosjes, Jan van Walré       0.00      0.00      0.00        10
+                                                            Aegidius Haeffacker       0.25      0.16      0.20       101
+                                                                  Aeneas Mackay       0.00      0.00      0.00         2
+                                                           Aernout van Overbeke       0.37      0.26      0.31        72
+                                                            Albertus Buitendyck       0.58      0.82      0.68       134
+                                                     Albertus Ignatius d'Hanins       0.39      0.33      0.36        21
+                                                                    Alle Dercks       0.32      0.28      0.30        68
+                                                                   Andries Pels       0.00      0.00      0.00        20
+                                          Anthonis de Hubert, Antonis de Hubert       0.79      0.79      0.79        28
+                                                                 Anthony Jansen       0.31      0.29      0.30       100
+                                              Antoine Mahaut, Kornelis Elzevier       0.33      0.37      0.35        68
+                                                                     Arnold Bon       0.16      0.09      0.11       117
+                                                              Arnoldus Cobbault       1.00      0.25      0.40         4
+                                                       Augustinus van Teylingen       0.00      0.00      0.00        18
+                                                     B. Targier, Anthony Jansen       0.07      0.03      0.05        58
+                                                        Barent Pietersz. Kompas       0.49      0.47      0.48        36
+                                                            Bernardus Busschoff       0.36      0.15      0.22        26
+                                                     Betje Wolff en Aagje Deken       0.33      0.32      0.33        34
+                                                       Boudewijn Jansen Wellens       0.37      0.43      0.40        56
+                                                                     C. J. Wits       0.45      0.45      0.45        80
+                                                                C. Rhijnenburgh       0.24      0.11      0.15        53
+                                                              C.P. van Wesbusch       0.06      0.04      0.05        45
+                                                                Carolus Tuinman       0.51      0.72      0.60       260
+                                                          Christianus Vermeulen       0.30      0.29      0.30       103
+                                                         Christianus de Placker       0.24      0.10      0.14        52
+                                                                 Claas Ganglofs       0.00      0.00      0.00         1
+                                                                     Claas Seep       0.00      0.00      0.00         2
+                                                                   Claes Stapel       0.52      0.67      0.59       223
+                                                     Cornelis Dirksen Wittenoom       0.00      0.00      0.00         2
+                                                              Cornelis Maertsz.       0.37      0.47      0.41       163
+                                                               Cornelis Stribeé       0.23      0.14      0.18        50
+                                                               Cornelis Sweerts       0.24      0.13      0.17        55
+                                                                Cornelis de Bie       0.00      0.00      0.00         5
+                                                              Cornelis de Leeuw       0.60      0.78      0.68        78
+                                                              Cornelis van Eeke       0.00      0.00      0.00         5
+                                                                   D. Porcelijn       0.00      0.00      0.00         3
+                                                                 D.V. Coornhert       0.79      0.85      0.82        68
+                                                               Daniel Bellemans       0.50      0.47      0.48        60
+                                                                Daniel Joncktys       0.14      0.08      0.11        12
+                                                                Daniël Heinsius       0.00      0.00      0.00         3
+                                                                 Daniël Willink       0.00      0.00      0.00         6
+                                                                    David Joris       0.69      0.47      0.56        19
+                                                                 David Montanus       0.54      0.23      0.33        30
+                                                            Dirck Pietersz Pers       0.40      0.55      0.46       146
+                                                      Dirk Rafaelsz. Camphuysen       0.58      0.71      0.64       177
+                                                                  Dirk de Vries       0.00      0.00      0.00         3
+                                                                 Dirk ter Woort       0.00      0.00      0.00         3
+                                                               E. Pels de Jonge       0.28      0.21      0.24        24
+                                                            E.J. Boneschanscher       0.00      0.00      0.00         2
+                                                                      F. Pitton       1.00      0.08      0.14        13
+                                                                      F. Verloo       0.00      0.00      0.00         7
+                                                      Femme Gerbrantsz Drieduym       0.27      0.18      0.22        49
+                                                            Franciscus Ridderus       0.47      0.60      0.53       136
+                                                             Franciscus de Laat       0.50      0.61      0.55        33
+                                                                Frank A. Metaal       0.17      0.15      0.16        20
+                                                                  Frans de Cort       0.29      0.24      0.26        74
+                                                Frans vander Straten de jongere       0.31      0.26      0.28        39
+                                                                 François Foret       0.25      0.08      0.12        12
+                                                                 François Halma       0.62      0.75      0.68       114
+                                                                   G.A. Bredero       0.41      0.54      0.47       129
+                                                          Gaudentius van Loemel       0.48      0.48      0.48        33
+                                                Gerrit Hendricksz. van Breughel       0.56      0.67      0.61        60
+                                                                 Gerrit Manheer       0.36      0.44      0.39        96
+                                                        Gijsbertus van Sandwijk       0.00      0.00      0.00        21
+                                                       Gillis Jacobsz. Quintijn       0.00      0.00      0.00         2
+                                                                 Godfried Bussé       0.37      0.26      0.30        27
+                                                               Govert van Mater       0.00      0.00      0.00         5
+                                                       Guilelmus van der Borcht       0.24      0.14      0.18        35
+                                                           Guilielmus Bolognino       0.65      0.84      0.74       111
+                                                   Guillaume Abrahams Ooijevaer       0.06      0.02      0.03        60
+                                                                 Gysbert Japicx       0.86      0.98      0.92        55
+                                                              H. van Vijfderley       0.00      0.00      0.00        28
+                                                              Haerlem Soetendal       0.00      0.00      0.00        10
+                                                                          Hagen       0.50      0.40      0.44         5
+                                                                   Hans de Ries       0.64      0.74      0.69        50
+                                                          Hendrick Jansz. Prins       0.46      0.20      0.28        56
+                                                     Hendrik Jacobz. Soetenboom       0.25      0.17      0.20        77
+                                                    Hendrik Lussing, Matthijsz.       0.00      0.00      0.00         2
+                                                            Hendrik Riemsnijder       0.15      0.10      0.12        48
+                                                                Hendrik Rintjes       0.25      0.18      0.21       119
+                                                             Hendrik Uilenbroek       0.48      0.57      0.52        58
+                                                             Hendrik van Boxtel       0.25      0.10      0.14        10
+                                                           Hendrik van Tichelen       0.00      0.00      0.00         4
+                                                             Henricus Costerius       0.65      0.55      0.60        31
+                                                                   Herman Harts       0.65      0.67      0.66        45
+                                                                   Herman Ockes       0.50      0.10      0.17        10
+                                                          Hermanus van den Burg       0.37      0.32      0.34        79
+                                                             Hieronymus Sweerts       0.20      0.07      0.10        15
+                                                          Hieronymus van Alphen       0.34      0.34      0.34       118
+                                                                  Hugo de Groot       0.57      0.40      0.47        10
+                                   Isaak A. van Vaerlen en Jan Jansz. van Asten       0.06      0.02      0.03        43
+                                                          J. Jacobsz. Harlingen       0.76      0.70      0.73        27
+                                                                        J. Sent       0.41      0.36      0.38        69
+                                                                    J. Smeerbol       0.00      0.00      0.00        21
+                                                                      J. Tradel       0.72      0.76      0.74        45
+                             J. Veldkamp en K. de Boer, J. Veldkamp, K. de Boer       0.00      0.00      0.00         3
+                                                                      J. Vriend       0.00      0.00      0.00         2
+                                                                       J.H. Pos       0.67      0.25      0.36         8
+                                                                    J.W. Lustig       0.00      0.00      0.00        18
+                                                                     J.Z. Baron       0.50      0.53      0.51        34
+                                                                  Jacob Brouwer       0.31      0.13      0.18        31
+                                                                     Jacob Cats       0.34      0.48      0.40        29
+                                                                   Jacob Claesz       0.54      0.53      0.53        74
+                                                      Jacob Coenraetsz Mayvogel       0.35      0.35      0.35        74
+                                                              Jacob Groenewegen       0.76      0.63      0.69        30
+                                                        Jacob Janszoon Colevelt       0.00      0.00      0.00        26
+Jacob Janszoon Colevelt, A. Pietersz. Craen, Matthijs van Velden, Jan Robbertsz       0.28      0.32      0.30        81
+                                                                   Jacob Rosant       0.55      0.73      0.63       190
+                                                                 Jacob Steendam       0.53      0.68      0.59        72
+                                                               Jacob Westerbaen       0.72      0.87      0.78       113
+                                                               Jacob van Lennep       0.00      0.00      0.00         3
+                                                                 Jacobus Revius       0.68      0.75      0.71       115
+                                                               Jacobus Viverius       0.56      0.56      0.56         9
+                                                              Jacobus de Ruyter       0.33      0.48      0.39       119
+                                                                Jakobus Rosseau       0.35      0.32      0.34        37
+                                                         Jan Gerritse Wondergem       1.00      0.22      0.36         9
+                                                            Jan Jacob Mauricius       0.00      0.00      0.00         6
+                                                              Jan Jansz. Deutel       0.26      0.12      0.16       119
+                                                              Jan Jansz. Orlers       0.12      0.09      0.11        11
+                                                             Jan Jansz. Starter       0.00      0.00      0.00        13
+                                                                     Jan Luyken       0.39      0.28      0.33        25
+                                                                   Jan Mommaert       0.26      0.07      0.11        82
+                                                               Jan Pieter Heije       0.46      0.66      0.54       319
+                                                                 Jan Thieullier       0.44      0.43      0.44        53
+                                                                   Jan Utenhove       0.78      0.88      0.83        77
+                                                                       Jan Zoet       0.12      0.05      0.07        43
+                                                                   Jan van Eijk       0.27      0.17      0.21        18
+                                                                 Jan van Gijsen       0.00      0.00      0.00         8
+                                                            Jan van Hoogstraten       0.40      0.56      0.47        78
+                                                            Jan van Westerhoven       0.88      1.00      0.94        60
+                                                               Jan van der Veen       0.51      0.60      0.55        67
+                                      Joachim Oudaen, Dirk Rafaelsz. Camphuysen       0.00      0.00      0.00         8
+                                                                   Joan Blasius       0.61      0.72      0.66        47
+                                                                  Joan Ysermans       0.27      0.22      0.24        41
+                                                             Joanna Crajenschot       0.00      0.00      0.00         2
+                                                                 Joannes Cloeck       0.65      0.50      0.57        26
+                                                               Joannes Kannewet       0.44      0.32      0.37        25
+                                                                    Joannes Mys       0.51      0.67      0.58        42
+                                                     Joannes Six van Chandelier       0.73      0.79      0.76       119
+                                                Joannes Stalpaert van der Wiele       0.61      0.84      0.71       118
+                                                             Joannes Vollenhove       0.69      0.86      0.76        49
+                                                             Joannes de Lixbona       0.00      0.00      0.00        47
+                                                               Joannes van Dyck       0.00      0.00      0.00        23
+                                                           Joannes van Sambeeck       0.54      0.73      0.62        88
+                                                         Jodocus van Lodenstein       0.57      0.63      0.60        73
+                                                                    Johan Beets       0.25      0.12      0.16        17
+                                                                 Johan Deknatel       0.44      0.52      0.48        94
+                                                                Johan Fruytiers       0.61      0.86      0.71        59
+                                                                 Johan van Born       0.10      0.02      0.04        84
+                                                           Johan van Heemskerck       0.00      0.00      0.00         9
+                                                               Johanna de Gavre       0.27      0.27      0.27        41
+                              Johannes Hazeu Cornelisz. en Dirk van der Reijden       0.63      0.68      0.65        40
+                                                              Johannes Stichter       0.18      0.08      0.11        61
+                                                    Johannes Wilhelmus Bussingh       0.57      0.72      0.64        39
+                                                            Johannes d' Outrein       0.62      0.55      0.58        29
+                                                       Joos Verschuere Reynvaan       0.63      0.78      0.70        46
+                                                           Joost van den Vondel       0.39      0.29      0.33        31
+                            Joost van den Vondel en Johan van Heemskerck (etc.)       0.00      0.00      0.00        13
+                                                                     Joris Wybo       0.21      0.18      0.20        22
+                                                                 Joseph Sadones       0.00      0.00      0.00         6
+                                                              Joseph van Dieden       0.00      0.00      0.00         1
+                                                                   Js. M. Pfeil       0.31      0.38      0.34        45
+                                                            Justus de Harduwijn       0.39      0.38      0.38        50
+                                                               Karel van Mander       0.62      0.84      0.71       364
+                                  Katharina Wilhelmina Bilderdijk-Schweickhardt       0.00      0.00      0.00         9
+                                                            Lambert de Visscher       0.48      0.44      0.46        80
+                                                                 Leenaert Clock       0.50      0.59      0.54        80
+                                                             Leonardus Gouwerak       0.56      0.64      0.60        45
+                                                         Livinus van der Minnen       0.42      0.55      0.48        82
+                                                 Louis Sette, Hinderick Ryeland       0.00      0.00      0.00         2
+                                                                Louis van Neste       0.00      0.00      0.00         2
+                                                                 Lucas de Heere       0.39      0.29      0.33        24
+                                                             Lucas van Mechelen       0.81      0.94      0.87        96
+                                                            M. van de Speybroek       0.38      0.45      0.41        49
+                                                              Marijn de Brauwer       0.55      0.55      0.55        47
+                                                                Mattheus Gargon       0.38      0.15      0.21        20
+                                                          Matthijs de Castelein       0.32      0.35      0.33        20
+                                                       Matthijs van der Merwede       0.55      0.50      0.52        12
+                                                                  Michiel Vlack       0.20      0.06      0.09        18
+                                                              Nicolaes Janssens       0.61      0.57      0.59        35
+                                                                    P.A. Dreyer       0.00      0.00      0.00         2
+                                                        Peeter de Vleeschoudere       0.29      0.18      0.22        28
+                                                                  Peter de Beer       0.00      0.00      0.00         3
+                                           Petrus Suetmans, Eustachius de Meyer       0.50      0.55      0.52        73
+                                                                 Petrus Verburg       0.00      0.00      0.00         2
+                                                              Philip van Marnix       0.77      0.91      0.83        66
+                                                               Philippus Jennyn       0.43      0.36      0.39        28
+                                                            Philippus Jongheryx       0.00      0.00      0.00         9
+                                                           Philippus van Sorgen       0.04      0.02      0.02        63
+                                                             Philips van Marnix       0.65      0.47      0.55        51
+                                                                Pieter Brughman       0.00      0.00      0.00         2
+                                                                   Pieter Cauwe       0.00      0.00      0.00        14
+                                                     Pieter Christiaenszoon Bor       0.00      0.00      0.00         2
+                                               Pieter Cornelisz. van der Morsch       0.25      0.20      0.22         5
+                                                                 Pieter Datheen       0.69      0.83      0.76       112
+                                                                 Pieter Dubbels       0.31      0.24      0.27        50
+                                                                Pieter Elsevier       0.16      0.12      0.14        32
+                          Pieter IJsbrand van der Hof, C. Groenveld, C.G. Kleyn       0.09      0.04      0.05        26
+                                                   Pieter Lenaerts van der Goes       0.62      0.77      0.69        52
+                                                                Pieter Nootmans       0.18      0.11      0.14        27
+                                                               Pieter Sterlincx       0.00      0.00      0.00         5
+                                                                  Pieter Vreede       0.00      0.00      0.00         2
+                                                             Pieter de Bisschop       0.33      0.17      0.22         6
+                                                                  Pieter de Vos       0.60      0.83      0.70       191
+                                                               Pieter van Gelre       0.21      0.16      0.18        32
+                                          R.J. de Nerée, P.C. Hooft, C.G. Plemp       0.23      0.14      0.18        21
+                                                               Reynier Rooleeuw       0.64      0.62      0.63        48
+                                                               Roelant de Kater       0.33      0.09      0.14        22
+                                                               Rumoldus Batavus       0.80      0.88      0.84        41
+                                                                 Rutger Schutte       0.14      0.07      0.09        15
+                                                                 Samuel Ampzing       0.25      0.17      0.20        18
+                                                                  Samuel Coster       0.00      0.00      0.00         9
+                                                                 Simon Abramsz.       0.00      0.00      0.00         2
+                                                            Simon Jansz Fortuyn       0.62      0.74      0.67        39
+                                                                Soetken Gerijts       0.75      0.86      0.80        63
+                                                         Tannetge Kornelis Blok       0.48      0.52      0.50        21
+                                                                 Thomas Fonteyn       0.14      0.09      0.11        70
+                                                                 Tjaert Sonnema       0.40      0.11      0.17        19
+                                                        Volkerus van Oosterwyck       0.00      0.00      0.00         9
+                                                              W.J. van Zeggelen       0.00      0.00      0.00        12
+                                                                  Wiete Ringers       0.00      0.00      0.00         2
+                  Willem Dirckszoon Hooft, Jan Jansz. Starter, Jacob Westerbaen       0.00      0.00      0.00        30
+                                                             Willem Schellinger       0.73      0.69      0.71        16
+                                                                 Willem Sluiter       0.42      0.33      0.37       136
+                                                                Willem de Swaen       0.59      0.79      0.68       209
+                                                              Willem van Geldof       0.00      0.00      0.00         4
+                                                             Wolterus ter Burgh       0.00      0.00      0.00        12
+                                                                Wouter Robbertz       0.00      0.00      0.00         2
+                                                                Zacharias Heyns       0.22      0.10      0.13        21
+
+                                                                       accuracy                           0.49     11083
+                                                                      macro avg       0.32      0.30      0.30     11083
+                                                                   weighted avg       0.44      0.49      0.45     11083
+
+.......... Training final SVM with all train set ........
+
