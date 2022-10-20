@@ -5,7 +5,7 @@ Florian Cafiero & Jean-Baptiste Camps
 
 ## Description des dossiers
 
-train_txt_langs: fichiers .xml convertis en .txt, organisés en dossiers selon la langue détectée par fasttext.
+train_txt_langs:  .xml fils converted to  .txt, organized in folders according to the language detected by fasttext.
 
 ## Description des fichiers
 
