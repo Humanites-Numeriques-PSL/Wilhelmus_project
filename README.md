@@ -1,6 +1,6 @@
 # Wilhelmus project
 
-Projet collectif du cours de philologie computationnelle Ecole nationale des chartes - Université PSL - année universitaire 2021-2022
+Collective project of the computational philology course at Ecole nationale des chartes - PSL Univeristy - academic years 2021-2022 and 2022-2023
 Florian Cafiero & Jean-Baptiste Camps
 
 ## Description des dossiers
@@ -10,13 +10,13 @@ train_txt_langs: fichiers .xml convertis en .txt, organisés en dossiers selon l
 ## Description des fichiers
 
 **authors_corrections.csv:** 
-liste des correction faites aux métadonnées "auteur". Ces corrections sont parfois simplement faites pour harmoniser les dénominations. Les autres corrections concernent des champs "auteurs" qui avaient été remplis de manière erronée, le nom de l'éditeur du recueil, de l'ethnographe ayant collecté le chant etc., ayant été saisi. Les textes associés ont été temporairement considérés comme "Anonymous". Mais il se peut que le véritable auteur soit connu. Il est donc nécessaire de le vérifier.
+list of corrections made to the "author" metadata. These corrections are sometimes simply made to standardize the names. Other corrections concern "author" fields that had been filled in erroneously, the name of the editor of the collection, the ethnographer who collected the song, etc., having been mistakenly entered. The associated texts have been temporarily considered as "Anonymous". But it is possible that the real author is known. It is therefore necessary to verify this.
 
 **lang_certs.csv**: 
-résultat d'un algorithme de détection automatique de la langue. Sont indiqués la langue et le degré de certitude de l'algorithme quant à la langue détectée. Plus ce degré est loin de 1, plus il est nécessaire de vérifier le texte.
+result of an automatic language detection algorithm. The language and the degree of certainty of the algorithm about the detected language are indicated. The further away from 1 the degree of certainty is, the more necessary it is to check the text.
 
 **langcert_revised.csv**: 
-même résultat, déjà partiellement révisé par nos soins. Ceci donne un exemple de la structure à adopter: on garde l'information sur ce que l'algorithme avait initialement détecté, mais on ajoute une colonne pour la langue finalement repérée.
+same result, already partially revised by us. This gives an example of the structure to adopt: we keep the information on what the algorithm had initially detected, but we add a column for the language finally detected.
 
 
 
@@ -31,9 +31,9 @@ The initial release can be found on the dedicated repository, under MIT License:
 
 [https://github.com/fbkarsdorp/meertens-song-collection/releases/tag/DH2019](https://github.com/fbkarsdorp/meertens-song-collection/releases/tag/DH2019).
 
-## Références
+## References
 
-Bibliothèque numérique des lettres néerlandaises: https://www.dbnl.org/
+Digitale Bibliotheek voor de Nederlandse Letteren: https://www.dbnl.org/
 
 "Did a Poet with Donkey Ears Write the Oldest Anthem in the World? Ideological Implications of the Computational Attribution of the Dutch National Anthem
 to Petrus Dathenus": https://dh2017.adho.org/abstracts/079/079.pdf
