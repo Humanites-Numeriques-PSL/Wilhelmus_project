@@ -1,6 +1,6 @@
 # Wilhelmus project
 
-Collective project of the computational philology course at Ecole nationale des chartes - PSL Univeristy - academic years 2021-2022 and 2022-2023
+Collective project of the computational philology course at Ecole nationale des chartes - PSL Univerisity - academic years 2021-2022 and 2022-2023
 Florian Cafiero & Jean-Baptiste Camps
 
 ## Description des dossiers
