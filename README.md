@@ -9,15 +9,18 @@ train_txt_langs:  .xml fils converted to  .txt, organized in folders according t
 
 ## Description des fichiers
 
+
 **authors_corrections.csv:** 
 list of corrections made to the "author" metadata. These corrections are sometimes simply made to standardize the names. Other corrections concern "author" fields that had been filled in erroneously, the name of the editor of the collection, the ethnographer who collected the song, etc., having been mistakenly entered. The associated texts have been temporarily considered as "Anonymous". But it is possible that the real author is known. It is therefore necessary to verify this.
+
+**auteurs_tri.csv:**
+list of authors with their date of birth and death when retrieved. An annotation on tha likelihood of them being a possible author of the Wilhelmus is deduced from these dates.
 
 **lang_certs.csv**: 
 result of an automatic language detection algorithm. The language and the degree of certainty of the algorithm about the detected language are indicated. The further away from 1 the degree of certainty is, the more necessary it is to check the text.
 
 **langcert_revised.csv**: 
 same result, already partially revised by us. This gives an example of the structure to adopt: we keep the information on what the algorithm had initially detected, but we add a column for the language finally detected.
-
 
 
 
